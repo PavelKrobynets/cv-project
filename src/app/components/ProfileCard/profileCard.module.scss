@@ -1,0 +1,83 @@
+.card {
+  position: fixed;
+  top: 5rem;
+  left: 5rem;
+  width: 300px;
+  height: calc(100% - 19.5rem);
+  padding: 2rem;
+  padding-top: 1rem;
+  background: linear-gradient(90deg, rgba(0, 7, 33, 0.3), rgba(8, 21, 70, 0.4));
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 25px rgba(0, 7, 33, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
+
+.name {
+  text-align: left;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.8rem;
+}
+
+.card > dl {
+  line-height: 1.1rem;
+}
+
+.card > dl > dt {
+  font-weight: 500;
+  font-size: 0.7rem;
+  color: rgb(167, 166, 174);
+}
+.card > dl > dd {
+  font-weight: 700;
+  font-size: 1rem;
+  color: rgb(216, 215, 226);
+}
+
+.card > ul {
+  margin-top: 1rem;
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card > ul > li {
+  border: 1px solid rgba(255, 255, 255, 0.469);
+  width: 2rem;
+  height: auto;
+  border-radius: 40%;
+  padding-left: 0.2rem;
+  padding-top: 0.3rem;
+  cursor: pointer;
+}
+
+.card > ul > li > svg {
+  padding: 0.3rem;
+  color: rgba(255, 255, 255, 0.889);
+}
+
+.btn {
+  font-family: geistSuse;
+  text-transform: capitalize;
+  letter-spacing: 0.09rem;
+  margin-top: 0.5rem;
+  width: 100%;
+  background: linear-gradient(90deg, rgb(246, 241, 209), rgb(64, 121, 140));
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  align-self: center;
+  color: #000721;
+}

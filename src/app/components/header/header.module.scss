@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 0.8rem;
+
+  & ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  & > ul > li {
+    padding: 0.45rem 0.9rem;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 7, 33, 0.3),
+      rgba(8, 21, 70, 0.4)
+    );
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 25px rgba(0, 7, 33, 0.3);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.057);
+    transition: border 0.5s;
+  }
+  & > ul > li:hover {
+    border: 1px solid rgba(255, 255, 255, 0.42);
+  }
+
+  & > button {
+    background-color: transparent;
+    padding: 0.45rem 0.9rem;
+  }
+
+  & > button > svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .header {
+    font-size: 0.7rem;
+
+    & > button {
+      background-color: transparent;
+      padding: 0.45rem 0.9rem;
+      font-size: 0.7rem;
+    }
+
+    & > button > svg {
+      width: 0.8rem;
+      height: 0.8rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .header {
+    font-size: 1.2rem;
+
+    & > button {
+      background-color: transparent;
+      padding: 0.45rem 0.9rem;
+      font-size: 1.2rem;
+    }
+
+    & > button > svg {
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+  }
+}

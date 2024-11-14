@@ -30,11 +30,7 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-geist-sans);
 }
 
 * {
@@ -52,4 +48,15 @@ a {
   html {
     color-scheme: dark;
   }
+}
+button {
+  font-family: geistSuse;
+  text-transform: capitalize;
+  background: linear-gradient(90deg, rgb(246, 241, 209), rgb(64, 121, 140));
+  color: #fff;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  align-self: center;
+  color: #000721;
 }

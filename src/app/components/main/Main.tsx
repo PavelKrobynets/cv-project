@@ -1,10 +1,13 @@
-import { Header } from "./index";
-import "./main.module.scss";
+import { Header, Home } from "./index";
+import styles from "./main.module.scss";
 
 export default function Main() {
   return (
     <div>
       <Header />
+      <div className={styles.home}>
+        <Home />
+      </div>
     </div>
   );
 }

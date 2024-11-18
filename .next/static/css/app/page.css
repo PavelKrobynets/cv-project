@@ -21,11 +21,12 @@
           backdrop-filter: blur(10px);
   box-shadow: 0 5px 25px rgba(0, 7, 33, 0.3);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.057);
+  border: 1px solid rgba(255, 255, 255, 0.013);
   transition: border 0.5s;
 }
 .header_header__pI4A8 > ul > li:hover {
   border: 1px solid rgba(255, 255, 255, 0.42);
+  cursor: pointer;
 }
 .header_header__pI4A8 > button {
   background-color: transparent;
@@ -64,10 +65,61 @@
     height: 1.2rem;
   }
 }
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/components/title/title.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.title_block__TIlWG > .title_anchor__eWQYc {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  font-size: 10px;
+  width: 120px;
+  border: 1px solid rgba(97, 97, 97, 0.584);
+  border-radius: 5rem;
+  padding-left: 2%;
+  color: rgb(227, 227, 227);
+}
+.title_block__TIlWG > .title_anchor__eWQYc > svg {
+  width: 14px;
+}
+.title_block__TIlWG > .title_title__wkP_H {
+  margin-top: 1rem;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/components/home/home.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.home_home___V3qG {
+  width: 600px;
+}
+.home_home___V3qG > .home_download__i06J9 {
+  margin-top: 1.5rem;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(227, 227, 227);
+  cursor: pointer;
+  margin-left: 0.4rem;
+  width: 130px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5rem;
+  padding-left: 2%;
+  padding-bottom: 1%;
+}
+.home_home___V3qG > .home_download__i06J9 > svg {
+  margin-left: 0.3rem;
+  width: 18px;
+}
+.home_home___V3qG > .home_download__i06J9:hover {
+  color: rgb(255, 255, 255);
+}
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/components/main/main.module.scss ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-
+.main_home__aLKOf {
+  margin-top: 12%;
+}
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/components/profileCard/profileCard.module.scss ***!
   \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -120,7 +172,7 @@
 }
 
 .profileCard_card__zNjSZ > ul {
-  margin-top: 1rem;
+  margin: 1rem 0;
   list-style: none;
   display: inline-flex;
   justify-content: space-between;
@@ -128,7 +180,7 @@
 }
 
 .profileCard_card__zNjSZ > ul > li {
-  border: 1px solid rgba(255, 255, 255, 0.469);
+  border: 1px solid rgba(255, 255, 255, 0.339);
   width: 1.8rem;
   height: 1.8rem;
   border-radius: 45%;
@@ -165,6 +217,6 @@
 
 @media screen and (min-width: 1400px) {
   .page_home__LW_lH {
-    padding-left: 23vw;
+    padding-left: 25vw;
   }
 }

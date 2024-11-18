@@ -44,7 +44,7 @@
 }
 
 .card > ul {
-  margin-top: 1rem;
+  margin: 1rem 0;
   list-style: none;
   display: inline-flex;
   justify-content: space-between;
@@ -52,7 +52,7 @@
 }
 
 .card > ul > li {
-  border: 1px solid rgba(255, 255, 255, 0.469);
+  border: 1px solid rgba(255, 255, 255, 0.339);
   width: 1.8rem;
   height: 1.8rem;
   border-radius: 45%;

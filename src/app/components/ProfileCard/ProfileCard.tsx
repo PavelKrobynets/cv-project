@@ -4,10 +4,10 @@ import styles from "./profileCard.module.scss";
 export default function ProfileCard() {
   return (
     <div className={styles.card}>
-      <h3 className={styles.name}>
+      <h4 className={styles.name}>
         Pavlo
         <br /> Krobynets
-      </h3>
+      </h4>
       <img src="/profile.webp" alt="my-photo" className={styles.image} />
       <dl>
         <dt>Specialization:</dt>

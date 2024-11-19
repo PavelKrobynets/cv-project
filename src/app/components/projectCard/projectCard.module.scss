@@ -1,0 +1,77 @@
+.card {
+  cursor: pointer;
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    left: -1rem;
+    padding: 1rem 2rem;
+
+    .tag {
+      font-size: 12px;
+      background-color: rgb(14, 14, 14);
+      display: inline-flex;
+      align-items: center;
+      height: 1.6rem;
+      padding: 0 1.1rem;
+      margin: 0 0.5rem 0.2rem 0;
+      border-radius: 5rem;
+    }
+  }
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.modalTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.modalCaption {
+  margin-bottom: 15px;
+}
+
+.modalTags {
+  margin-bottom: 15px;
+}
+
+.modalTag {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.modalButton {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

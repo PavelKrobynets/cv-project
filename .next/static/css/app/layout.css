@@ -21,6 +21,7 @@ font-weight: 100 900;
   background-position: center center;
   background-repeat: repeat;
   background-image: url("/background.png");
+  color: rgb(220, 226, 231);
 }
 
 html,
@@ -57,13 +58,14 @@ button {
   border: none;
   border-radius: 0.8rem;
   cursor: pointer;
-  align-self: center;
   color: #000721;
 }
 
 h1,
 h2,
-h2 {
+h3,
+h4,
+h5 {
   font-family: geistSuse;
   background: linear-gradient(-30deg, rgb(246, 241, 209), rgb(64, 121, 140));
   -webkit-background-clip: text;

@@ -1,5 +1,5 @@
 import Title from "../title/Title";
-import { FileDown } from "lucide-react";
+import { ArrowBigDownDash } from "lucide-react";
 import styles from "./home.module.scss";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.home}>
       <Title anchor="Let's get in touch!" title={titleText} />
       <div className={styles.download}>
-        Download CV <FileDown />
+        Download CV <ArrowBigDownDash />
       </div>
     </div>
   );

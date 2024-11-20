@@ -2,23 +2,20 @@
   margin-top: 5%;
   & > .download {
     margin-top: 1.5rem;
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     color: rgb(227, 227, 227);
     cursor: pointer;
-    margin-left: 0.4rem;
-    width: 130px;
-    padding: 5px;
+    width: 115px;
+    padding: 3px;
     border: 1px solid gray;
     border-radius: 5rem;
-    padding-left: 2%;
-    padding-bottom: 1%;
+    padding-left: 1.8%;
 
     & > svg {
       margin-left: 0.3rem;
-      width: 18px;
+      width: 16px;
     }
 
     &:hover {

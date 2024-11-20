@@ -22,9 +22,12 @@ export default function ProjectCard({ img, tags, title, caption }: Props) {
 
   const modalWindow = (
     <div className={styles.modalOverlay} onClick={handleCloseModal}>
+      <div className={styles.modalClose} onClick={handleCloseModal}>
+        x
+      </div>
+      <img className={styles.modalImg} src={img} alt={title} />
       <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
         <h5 className={styles.modalTitle}>{title}</h5>
-        <p className={styles.modalCaption}>{caption}</p>
         <div className={styles.modalTags}>
           {tags.map((tag, index) => (
             <span key={index} className={styles.modalTag}>
@@ -32,9 +35,7 @@ export default function ProjectCard({ img, tags, title, caption }: Props) {
             </span>
           ))}
         </div>
-        <button className={styles.modalButton} onClick={handleCloseModal}>
-          Close
-        </button>
+        <p className={styles.modalCaption}>{caption}</p>
       </div>
     </div>
   );

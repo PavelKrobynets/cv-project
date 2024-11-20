@@ -204,6 +204,10 @@
 .projectCard_card__khgdS img {
   width: 100%;
   border-radius: 5%;
+  transition: transform 0.3s;
+}
+.projectCard_card__khgdS img:hover {
+  transform: scale(1.03);
 }
 .projectCard_card__khgdS .projectCard_description__1EKDR {
   display: flex;
@@ -219,7 +223,7 @@
   display: inline-flex;
   align-items: center;
   height: 1.6rem;
-  padding: 0 1.1rem;
+  padding: 0 0.7rem;
   margin: 0 0.5rem 0.2rem 0;
   border-radius: 5rem;
 }
@@ -230,47 +234,57 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background: url("/background.png") center/cover no-repeat;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 5px;
+  z-index: 10;
+}
+
+.projectCard_modalClose__kpyla {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.projectCard_modalImg__PotjK {
+  position: relative;
+  width: 37rem;
+  border-radius: 1rem;
 }
 
 .projectCard_modalContent__fKmO4 {
-  background-color: white;
+  background-color: #0f1636;
+  width: 28rem;
   padding: 20px;
-  border-radius: 8px;
-  text-align: center;
+  border-radius: 2rem;
+  text-align: start;
 }
 
 .projectCard_modalTitle__5zfu7 {
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .projectCard_modalCaption___CZRP {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .projectCard_modalTags__sqAiW {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .projectCard_modalTag__h1OAd {
   display: inline-block;
-  margin: 0 5px;
-  padding: 5px 10px;
-  background-color: #f0f0f0;
-  border-radius: 5px;
-}
-
-.projectCard_modalButton__22dCN {
-  padding: 10px 15px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  margin-right: 10px;
+  padding: 3px 10px;
+  border: 1px solid rgba(143, 143, 143, 0.8);
+  border-radius: 0.9rem;
+  font-size: 12px;
 }
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/components/title/title.module.scss ***!

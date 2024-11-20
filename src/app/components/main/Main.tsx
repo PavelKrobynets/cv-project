@@ -1,4 +1,4 @@
-import { Header, Home, Portfolio, About } from "./index";
+import { Header, Home, Portfolio, About, Education, Contacts } from "./index";
 import styles from "./main.module.scss";
 
 export default function Main() {
@@ -8,6 +8,8 @@ export default function Main() {
       <Home />
       <Portfolio />
       <About />
+      <Education />
+      <Contacts />
     </div>
   );
 }

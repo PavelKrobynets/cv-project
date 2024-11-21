@@ -4,7 +4,7 @@ import styles from "./about.module.scss";
 
 export default function About() {
   return (
-    <div className={styles.about} id="abou">
+    <section className={styles.about} id="about">
       <Title
         anchor="About me"
         title="Crafting clean code and intuitive interfaces"
@@ -41,6 +41,6 @@ export default function About() {
       >
         Download CV <ArrowBigDownDash />
       </a>
-    </div>
+    </section>
   );
 }

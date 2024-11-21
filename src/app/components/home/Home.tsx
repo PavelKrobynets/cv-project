@@ -5,7 +5,7 @@ import styles from "./home.module.scss";
 export default function Home() {
   const titleText = `I'm Pavlo Krobynets\nfront-end developer`;
   return (
-    <div className={styles.home} id="home">
+    <section className={styles.home} id="home">
       <Title anchor="Let's get in touch!" title={titleText} />
       <a
         download
@@ -14,6 +14,6 @@ export default function Home() {
       >
         Download CV <ArrowBigDownDash />
       </a>
-    </div>
+    </section>
   );
 }

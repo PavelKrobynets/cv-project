@@ -1,11 +1,10 @@
 import Title from "../title/Title";
 import ProjectCard from "../projectCard/ProjectCard";
 import styles from "./portfolio.module.scss";
-import { LocaleRouteNormalizer } from "next/dist/server/normalizers/locale-route-normalizer";
 
 export default function Portfolio() {
   return (
-    <div className={styles.portfolio} id="portfolio">
+    <section className={styles.portfolio} id="portfolio">
       <Title anchor="Portfolio" title="Take a look at my latest projects" />
       <div className={styles.portfolio__container}>
         <ProjectCard
@@ -33,6 +32,6 @@ export default function Portfolio() {
           caption={"caption"}
         />
       </div>
-    </div>
+    </section>
   );
 }

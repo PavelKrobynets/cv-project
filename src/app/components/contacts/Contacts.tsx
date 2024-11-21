@@ -4,7 +4,7 @@ import styles from "./contacts.module.scss";
 
 export default function Contacts() {
   return (
-    <div className={styles.contacts} id="contacts">
+    <section className={styles.contacts} id="contacts">
       <Title anchor="Contacts" title="Let's connect!" />
       <Socials />
       <div className={styles.text}>
@@ -27,6 +27,6 @@ export default function Contacts() {
           <dd>krobynetspavel@gmail.com</dd>
         </div>
       </dl>
-    </div>
+    </section>
   );
 }

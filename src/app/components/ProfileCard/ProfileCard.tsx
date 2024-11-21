@@ -1,4 +1,4 @@
-import { Phone, Mail, Linkedin, Github, Send } from "lucide-react";
+import Socials from "../socials/Socials";
 import styles from "./profileCard.module.scss";
 
 export default function ProfileCard() {
@@ -15,23 +15,7 @@ export default function ProfileCard() {
         <dt>Location:</dt>
         <dd>Uzhhorod, Ukraine</dd>
       </dl>
-      <ul>
-        <li>
-          <Phone />
-        </li>
-        <li>
-          <Mail />
-        </li>
-        <li>
-          <Linkedin />
-        </li>
-        <li>
-          <Github />
-        </li>
-        <li>
-          <Send />
-        </li>
-      </ul>
+      <Socials />
       <button className={styles.btn}>Let's work together</button>
     </div>
   );

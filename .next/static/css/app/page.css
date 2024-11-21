@@ -109,13 +109,128 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/components/education/education.module.scss ***!
   \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/components/main/main.module.scss ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.main_main__WqjS1 {
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/components/contacts/contacts.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.contacts_contacts__W7h9F {
+  margin-bottom: 100px;
+}
+.contacts_contacts__W7h9F .contacts_text__l1CiA {
+  width: 90%;
+  font-family: geistSuse;
+  background: linear-gradient(-30deg, rgb(246, 241, 209), rgb(64, 121, 140));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.contacts_contacts__W7h9F hr {
+  border: 1px solid #747795;
+}
+.contacts_contacts__W7h9F dl {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   display: flex;
-  flex-direction: column;
-  gap: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contacts_contacts__W7h9F dl dt {
+  margin-right: 1rem;
+  font-size: 0.9rem;
+}
+.contacts_contacts__W7h9F dl dd {
+  font-size: 0.75rem;
+  font-weight: 200;
+  color: #9a9ec9;
+  text-shadow: 1px 1px 5px #060a25;
+}
+
+.contacts_contacts__W7h9F > div > ul {
+  gap: 10px;
+}
+
+.contacts_contacts__W7h9F > div > ul > li {
+  width: 100%;
+  height: 5rem;
+  border-radius: 2rem;
+  text-align: center;
+  transition: all 0.4s;
+}
+
+.contacts_contacts__W7h9F > div > ul > li > svg {
+  width: 3.6rem;
+  color: #67919a;
+  transition: all 0.3s;
+}
+
+.contacts_contacts__W7h9F > div > ul > li:hover,
+.contacts_contacts__W7h9F > div > ul > li:hover > svg {
+  scale: 1.05;
+  color: #c1c7d0;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/components/profileCard/profileCard.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.profileCard_card__zNjSZ {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  width: 23vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1.2rem;
+  background: linear-gradient(90deg, rgba(0, 7, 33, 0.3), rgba(8, 21, 70, 0.4));
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 5px 25px rgba(0, 7, 33, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+}
+
+.profileCard_image__gKJ69 {
+  width: 100%;
+  height: auto;
+  border-radius: 1.5rem;
+}
+
+.profileCard_name__cra_U {
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.6rem;
+}
+
+.profileCard_card__zNjSZ > dl {
+  line-height: 1rem;
+  padding-left: 0.2rem;
+}
+
+.profileCard_card__zNjSZ > dl > dt {
+  font-weight: 500;
+  font-size: 0.7rem;
+  color: rgb(167, 166, 174);
+}
+
+.profileCard_card__zNjSZ > dl > dd {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: rgb(216, 215, 226);
+}
+
+.profileCard_btn__hxHfb {
+  padding: 10px 20px;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 1400px) {
+  .profileCard_card__zNjSZ {
+    margin-top: 1rem;
+    width: 17vw;
+  }
 }
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/components/projectCard/projectCard.module.scss ***!
@@ -293,64 +408,10 @@
 .about_about__QhE9b .about_btn__fKZeI:hover {
   color: rgb(255, 255, 255);
 }
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/components/contacts/contacts.module.scss ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.contacts_contacts__W7h9F {
-  margin-bottom: 100px;
-}
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/components/profileCard/profileCard.module.scss ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.profileCard_card__zNjSZ {
-  position: fixed;
-  top: 5%;
-  left: 5%;
-  width: 23vw;
-  height: -moz-fit-content;
-  height: fit-content;
-  padding: 1.2rem;
-  background: linear-gradient(90deg, rgba(0, 7, 33, 0.3), rgba(8, 21, 70, 0.4));
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
-  box-shadow: 0 5px 25px rgba(0, 7, 33, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 25px;
-}
-
-.profileCard_image__gKJ69 {
-  width: 100%;
-  height: auto;
-  border-radius: 1.5rem;
-}
-
-.profileCard_name__cra_U {
-  text-align: left;
-  font-size: 1.4rem;
-  font-weight: 600;
-  padding-left: 0.5rem;
-  padding-bottom: 0.5rem;
-  line-height: 1.6rem;
-}
-
-.profileCard_card__zNjSZ > dl {
-  line-height: 1rem;
-  padding-left: 0.2rem;
-}
-
-.profileCard_card__zNjSZ > dl > dt {
-  font-weight: 500;
-  font-size: 0.7rem;
-  color: rgb(167, 166, 174);
-}
-
-.profileCard_card__zNjSZ > dl > dd {
-  font-weight: 700;
-  font-size: 0.9rem;
-  color: rgb(216, 215, 226);
-}
-
-.profileCard_card__zNjSZ > ul {
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/components/socials/socials.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.socials_socials__IB6Lb > ul {
   margin: 1rem 0;
   list-style: none;
   display: inline-flex;
@@ -358,7 +419,7 @@
   width: 100%;
 }
 
-.profileCard_card__zNjSZ > ul > li {
+.socials_socials__IB6Lb > ul > li {
   border: 1px solid rgba(255, 255, 255, 0.339);
   width: 1.8rem;
   height: 1.8rem;
@@ -366,24 +427,19 @@
   cursor: pointer;
 }
 
-.profileCard_card__zNjSZ > ul > li > svg {
+.socials_socials__IB6Lb > ul > li > svg {
   padding: 0.45rem;
   width: 100%;
   height: 100%;
   color: rgba(255, 255, 255, 0.889);
 }
-
-.profileCard_btn__hxHfb {
-  padding: 10px 20px;
-  margin-top: 0.5rem;
-  width: 100%;
-}
-
-@media screen and (min-width: 1400px) {
-  .profileCard_card__zNjSZ {
-    margin-top: 1rem;
-    width: 17vw;
-  }
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/components/main/main.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.main_main__WqjS1 {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/page.module.scss ***!

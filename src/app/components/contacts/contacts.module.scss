@@ -1,3 +1,61 @@
 .contacts {
   margin-bottom: 100px;
+
+  .text {
+    width: 90%;
+    font-family: geistSuse;
+    background: linear-gradient(-30deg, rgb(246, 241, 209), rgb(64, 121, 140));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+
+  hr {
+    border: 1px solid #747795;
+  }
+
+  dl {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    dt {
+      margin-right: 1rem;
+      font-size: 0.9rem;
+    }
+    dd {
+      font-size: 0.75rem;
+      font-weight: 200;
+      color: #9a9ec9;
+      text-shadow: 1px 1px 5px #060a25;
+    }
+  }
+}
+
+.contacts > div > ul {
+  gap: 10px;
+}
+
+.contacts > div > ul > li {
+  width: 100%;
+  height: 5rem;
+  border-radius: 2rem;
+  text-align: center;
+  transition: all 0.4s;
+}
+
+.contacts > div > ul > li > svg {
+  width: 3.6rem;
+  color: #67919a;
+  transition: all 0.3s;
+}
+
+.contacts > div > ul > li:hover,
+.contacts > div > ul > li:hover > svg {
+  scale: 1.05;
+  color: #c1c7d0;
 }

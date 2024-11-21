@@ -1,28 +1,12 @@
 import Title from "../title/Title";
-import { Phone, Mail, Linkedin, Github, Send } from "lucide-react";
+import Socials from "../socials/Socials";
 import styles from "./contacts.module.scss";
 
 export default function Contacts() {
   return (
     <div className={styles.contacts}>
       <Title anchor="Contacts" title="Let's connect!" />
-      <ul>
-        <li>
-          <Phone />
-        </li>
-        <li>
-          <Mail />
-        </li>
-        <li>
-          <Linkedin />
-        </li>
-        <li>
-          <Github />
-        </li>
-        <li>
-          <Send />
-        </li>
-      </ul>
+      <Socials />
       <div className={styles.text}>
         Whether you have a question, want to collaborate, or just want to say
         hello, feel free to reach out. I’d love to hear from you and will get
@@ -30,12 +14,18 @@ export default function Contacts() {
       </div>
       <hr />
       <dl>
-        <dt>Location:</dt>
-        <dd>Uzhhorod, Ukraine</dd>
-        <dt>Specialization:</dt>
-        <dd>Frontend developer</dd>
-        <dt>Email</dt>
-        <dd>krobynetspavel@gmail.com</dd>
+        <div>
+          <dt>Location</dt>
+          <dd>Uzhhorod, Ukraine</dd>
+        </div>
+        <div>
+          <dt>Specialization</dt>
+          <dd>Frontend developer</dd>
+        </div>
+        <div>
+          <dt>Email</dt>
+          <dd>krobynetspavel@gmail.com</dd>
+        </div>
       </dl>
     </div>
   );

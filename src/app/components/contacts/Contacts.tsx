@@ -4,7 +4,7 @@ import styles from "./contacts.module.scss";
 
 export default function Contacts() {
   return (
-    <div className={styles.contacts}>
+    <div className={styles.contacts} id="contacts">
       <Title anchor="Contacts" title="Let's connect!" />
       <Socials />
       <div className={styles.text}>

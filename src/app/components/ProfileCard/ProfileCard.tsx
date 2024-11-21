@@ -1,4 +1,5 @@
 import Socials from "../socials/Socials";
+import Link from "next/link";
 import styles from "./profileCard.module.scss";
 
 export default function ProfileCard() {
@@ -16,7 +17,9 @@ export default function ProfileCard() {
         <dd>Uzhhorod, Ukraine</dd>
       </dl>
       <Socials />
-      <button className={styles.btn}>Let's work together</button>
+      <Link href="#contacts">
+        <button className={styles.btn}>Let's work together</button>
+      </Link>
     </div>
   );
 }

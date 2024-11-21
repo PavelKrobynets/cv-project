@@ -1,5 +1,6 @@
 .contacts {
-  margin-bottom: 100px;
+  margin-bottom: 5rem;
+  padding-top: 7rem;
 
   .text {
     width: 90%;
@@ -48,14 +49,14 @@
   transition: all 0.4s;
 }
 
-.contacts > div > ul > li > svg {
+.contacts > div > ul > li > * > svg {
   width: 3.6rem;
   color: #67919a;
   transition: all 0.3s;
 }
 
 .contacts > div > ul > li:hover,
-.contacts > div > ul > li:hover > svg {
+.contacts > div > ul > li:hover > * > svg {
   scale: 1.05;
   color: #c1c7d0;
 }

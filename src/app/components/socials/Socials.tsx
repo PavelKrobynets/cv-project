@@ -1,4 +1,5 @@
-import { Phone, Mail, Linkedin, Github, Send } from "lucide-react";
+import { Mail, Linkedin, Github, Send } from "lucide-react";
+import Link from "next/link";
 import styles from "./socials.module.scss";
 
 export default function Socials() {
@@ -6,19 +7,27 @@ export default function Socials() {
     <div className={styles.socials}>
       <ul>
         <li>
-          <Phone />
+          <Link href="mailto:krobynetspavel@gmail.com">
+            <Mail />
+          </Link>
         </li>
         <li>
-          <Mail />
+          <Link
+            href="https://www.linkedin.com/in/pavlo-krobynets/"
+            target="_blank"
+          >
+            <Linkedin />
+          </Link>
         </li>
         <li>
-          <Linkedin />
+          <Link href="https://github.com/PavelKrobynets" target="_blank">
+            <Github />
+          </Link>
         </li>
         <li>
-          <Github />
-        </li>
-        <li>
-          <Send />
+          <Link href="https://t.me/Krobynets_Pavel" target="_blank">
+            <Send />
+          </Link>
         </li>
       </ul>
     </div>

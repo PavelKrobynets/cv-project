@@ -4,7 +4,7 @@ import styles from "./about.module.scss";
 
 export default function About() {
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id="abou">
       <Title
         anchor="About me"
         title="Crafting clean code and intuitive interfaces"
@@ -34,9 +34,13 @@ export default function About() {
           </li>
         </ul>
       </div>
-      <button className={styles.btn}>
+      <a
+        download
+        href="/Pavlo_Krobynets_Frontend_Developer_CV..pdf"
+        className={styles.btn}
+      >
         Download CV <ArrowBigDownDash />
-      </button>
+      </a>
     </div>
   );
 }

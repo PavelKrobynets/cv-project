@@ -5,7 +5,7 @@ import { LocaleRouteNormalizer } from "next/dist/server/normalizers/locale-route
 
 export default function Portfolio() {
   return (
-    <div className={styles.portfolio}>
+    <div className={styles.portfolio} id="portfolio">
       <Title anchor="Portfolio" title="Take a look at my latest projects" />
       <div className={styles.portfolio__container}>
         <ProjectCard

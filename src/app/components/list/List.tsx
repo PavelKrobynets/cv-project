@@ -1,19 +1,23 @@
+import { ListItem } from "../../types/types";
 import styles from "./list.module.scss";
 
-export default function List() {
+interface Props {
+  headline: string;
+  list: ListItem[];
+}
+
+export default function List({ headline, list }: Props) {
   return (
     <div className={styles.list}>
-      <h4 className={styles.headline}>My education</h4>
+      <h4 className={styles.headline}>{headline}</h4>
       <ul className={styles.listItems}>
-        <li className={styles.listItem}>
-          <div className={styles.year}>2022-2024</div>
-          <div className={styles.title}>
-            Master of Science in Computer Science
-          </div>
-          <div className={styles.description}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          </div>
-        </li>
+        {list.map((item) => (
+          <li className={styles.listItem} key={item.title}>
+            <div className={styles.year}>{item.year}</div>
+            <div className={styles.title}>{item.title}</div>
+            <div className={styles.description}>{item.description}</div>
+          </li>
+        ))}
       </ul>
     </div>
   );

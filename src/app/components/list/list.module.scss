@@ -1,0 +1,43 @@
+.list {
+  margin-top: 3rem;
+
+  .headline {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    -webkit-text-fill-color: rgb(221, 221, 221);
+  }
+
+  .listItems {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+    .listItem {
+      height: 5.5rem;
+      display: grid;
+      align-items: center;
+      grid-template-columns: 0.4fr 0.8fr 1.2fr;
+      border-top: 1px solid #2f386ba1;
+      transition: backdrop-filter 0.5s;
+      padding-inline: 1rem;
+
+      &:hover {
+        backdrop-filter: blur(20px);
+      }
+      .year {
+        font-size: 10px;
+        font-weight: 200;
+      }
+
+      .title {
+        font-size: 16px;
+      }
+
+      .description {
+        font-size: 14px;
+        font-weight: 200;
+      }
+    }
+  }
+}

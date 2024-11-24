@@ -329,6 +329,16 @@
   cursor: pointer;
 }
 
+.projectCard_modalLink__Nh3zK {
+  position: absolute;
+  top: 20px;
+  right: 60px;
+  cursor: pointer;
+}
+.projectCard_modalLink__Nh3zK > svg {
+  width: 18px;
+}
+
 .projectCard_modalImg__PotjK {
   position: relative;
   width: 37rem;
@@ -481,6 +491,14 @@
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/components/profileCard/profileCard.module.scss ***!
   \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes profileCard_fadeInAnimation__uSNlG {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .profileCard_card__zNjSZ {
   position: fixed;
   top: 5%;
@@ -495,6 +513,7 @@
   box-shadow: 0 5px 25px rgba(0, 7, 33, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 25px;
+  animation: profileCard_fadeInAnimation__uSNlG 2.5s ease-in-out;
 }
 
 .profileCard_image__gKJ69 {

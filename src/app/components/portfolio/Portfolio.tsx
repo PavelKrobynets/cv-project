@@ -1,5 +1,6 @@
 import Title from "../title/Title";
 import ProjectCard from "../projectCard/ProjectCard";
+import { projects } from "../../data/projects";
 import styles from "./portfolio.module.scss";
 
 export default function Portfolio() {
@@ -7,30 +8,9 @@ export default function Portfolio() {
     <section className={styles.portfolio} id="portfolio">
       <Title anchor="Portfolio" title="Take a look at my latest projects" />
       <div className={styles.portfolio__container}>
-        <ProjectCard
-          img={"/penguin.webp"}
-          tags={["TypeScript", "React"]}
-          title={"Some project"}
-          caption={"text"}
-        />
-        <ProjectCard
-          img={"/penguin.webp"}
-          tags={["tag1", "tag2"]}
-          title={"title"}
-          caption={"caption"}
-        />
-        <ProjectCard
-          img={"/penguin.webp"}
-          tags={["tag1", "tag2"]}
-          title={"title"}
-          caption={"caption"}
-        />
-        <ProjectCard
-          img={"/penguin.webp"}
-          tags={["tag1", "tag2"]}
-          title={"title"}
-          caption={"caption"}
-        />
+        {projects.map((project) => (
+          <ProjectCard key={project.title} {...project} />
+        ))}
       </div>
     </section>
   );

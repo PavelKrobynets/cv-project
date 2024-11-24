@@ -55,6 +55,17 @@
   cursor: pointer;
 }
 
+.modalLink {
+  position: absolute;
+  top: 20px;
+  right: 60px;
+  cursor: pointer;
+
+  & > svg {
+    width: 18px;
+  }
+}
+
 .modalImg {
   position: relative;
   width: 37rem;

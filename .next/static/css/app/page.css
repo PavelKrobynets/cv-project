@@ -98,7 +98,7 @@
 .tools_tools__iKPQL > ul > li > * > svg {
   scale: 1.05;
   transition: all 0.3s ease-in-out;
-  border: 1px solid rgba(255, 255, 255, 0.512);
+  border: 1px solid rgba(255, 255, 255, 0.313);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
 }
@@ -212,6 +212,7 @@
   font-family: geistSuse;
   background: linear-gradient(-30deg, rgb(246, 241, 209), rgb(64, 121, 140));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.7rem;
   font-weight: 500;

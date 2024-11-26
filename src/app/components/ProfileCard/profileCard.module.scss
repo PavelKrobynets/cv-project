@@ -1,12 +1,13 @@
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
+// @keyframes fadeInAnimation {
+//   0% {
+//     opacity: 0;
+//     padding-top: 100%;
+//   }
 
-  100% {
-    opacity: 1;
-  }
-}
+//   100% {
+//     opacity: 1;
+//   }
+// }
 
 .card {
   position: fixed;
@@ -20,7 +21,7 @@
   box-shadow: 0 5px 25px rgba(0, 7, 33, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 25px;
-  animation: fadeInAnimation 2.5s ease-in-out;
+  // animation: fadeInAnimation 2s;
 }
 
 .image {

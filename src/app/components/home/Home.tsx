@@ -1,5 +1,7 @@
+"use client";
 import Title from "../title/Title";
 import { ArrowBigDownDash } from "lucide-react";
+import { motion } from "framer-motion";
 import styles from "./home.module.scss";
 
 export default function Home() {
@@ -7,13 +9,22 @@ export default function Home() {
   return (
     <section className={styles.home} id="home">
       <Title anchor="Let's get in touch!" title={titleText} />
-      <a
+      <motion.a
+        initial={{
+          opacity: 0,
+          y: 70,
+        }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+          transition: { duration: 1.3 },
+        }}
         download
         href="/Pavlo_Krobynets_Frontend_Developer_CV..pdf"
         className={styles.download}
       >
         Download CV <ArrowBigDownDash />
-      </a>
+      </motion.a>
     </section>
   );
 }

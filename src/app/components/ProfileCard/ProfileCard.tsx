@@ -1,10 +1,23 @@
+"use client";
 import Socials from "../socials/Socials";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import styles from "./profileCard.module.scss";
 
 export default function ProfileCard() {
   return (
-    <div className={styles.card}>
+    <motion.div
+      initial={{
+        opacity: 0,
+        x: -50,
+      }}
+      animate={{
+        opacity: 1,
+        x: 0,
+        transition: { duration: 1.2 },
+      }}
+      className={styles.card}
+    >
       <h4 className={styles.name}>
         Pavlo
         <br /> Krobynets
@@ -20,6 +33,6 @@ export default function ProfileCard() {
       <Link href="#contacts">
         <button className={styles.btn}>Let's work together</button>
       </Link>
-    </div>
+    </motion.div>
   );
 }

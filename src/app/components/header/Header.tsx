@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { MessageCircleMore } from "lucide-react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import styles from "./header.module.scss";
 
 export default function Header() {
@@ -35,7 +36,18 @@ export default function Header() {
   }, []);
 
   return (
-    <header className={styles.header}>
+    <motion.header
+      initial={{
+        opacity: 0,
+        y: -50,
+      }}
+      animate={{
+        opacity: 1,
+        y: 0,
+        transition: { duration: 1.2 },
+      }}
+      className={styles.header}
+    >
       <nav>
         <ul>
           <li className={activeSection === "home" ? styles.active : ""}>
@@ -61,6 +73,6 @@ export default function Header() {
           Let's talk <MessageCircleMore className={styles.icon} />
         </button>
       </Link>
-    </header>
+    </motion.header>
   );
 }

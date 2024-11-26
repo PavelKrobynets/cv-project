@@ -1,7 +1,8 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link as LinkIcon } from "lucide-react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import styles from "./projectCard.module.scss";
 
 interface Props {
@@ -14,6 +15,12 @@ interface Props {
 
 export default function ProjectCard({ ...project }: Props) {
   const [modal, setModalOpen] = useState(false);
+  const [randomY, setRandomY] = useState(0);
+
+  useEffect(() => {
+    const randomValue = Math.floor(Math.random() * (120 - 30 + 1) + 30);
+    setRandomY(randomValue);
+  }, []);
 
   const handleImageClick = () => {
     setModalOpen(true);
@@ -49,7 +56,17 @@ export default function ProjectCard({ ...project }: Props) {
   );
 
   return (
-    <div>
+    <motion.div
+      initial={{
+        opacity: 0,
+        y: randomY,
+      }}
+      whileInView={{
+        opacity: 1,
+        y: 0,
+        transition: { duration: 1.2 },
+      }}
+    >
       <figure className={styles.card} onClick={handleImageClick}>
         <img src={project.img} alt={project.title} />
         <figcaption className={styles.description}>
@@ -62,6 +79,6 @@ export default function ProjectCard({ ...project }: Props) {
       </figure>
 
       {modal && modalWindow}
-    </div>
+    </motion.div>
   );
 }

@@ -6,8 +6,8 @@ export default function Main() {
     <div className={styles.main}>
       <Header />
       <Home />
-      <Portfolio />
       <About />
+      <Portfolio />
       <Education />
       <Contacts />
     </div>

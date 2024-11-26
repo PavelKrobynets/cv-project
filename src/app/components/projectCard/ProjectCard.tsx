@@ -16,10 +16,14 @@ interface Props {
 export default function ProjectCard({ ...project }: Props) {
   const [modal, setModalOpen] = useState(false);
   const [randomY, setRandomY] = useState(0);
+  const [animationDuration, setAnimationDuration] = useState(1.2);
 
   useEffect(() => {
     const randomValue = Math.floor(Math.random() * (120 - 30 + 1) + 30);
     setRandomY(randomValue);
+
+    const randomDuration = Math.random() * (2 - 0.5) + 0.5;
+    setAnimationDuration(randomDuration);
   }, []);
 
   const handleImageClick = () => {
@@ -64,7 +68,7 @@ export default function ProjectCard({ ...project }: Props) {
       whileInView={{
         opacity: 1,
         y: 0,
-        transition: { duration: 1.2 },
+        transition: { duration: animationDuration },
       }}
     >
       <figure className={styles.card} onClick={handleImageClick}>

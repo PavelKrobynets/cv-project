@@ -53,11 +53,11 @@ export default function Header() {
           <li className={activeSection === "home" ? styles.active : ""}>
             <Link href="#home">Home</Link>
           </li>
-          <li className={activeSection === "portfolio" ? styles.active : ""}>
-            <Link href="#portfolio">Portfolio</Link>
-          </li>
           <li className={activeSection === "about" ? styles.active : ""}>
             <Link href="#about">About Me</Link>
+          </li>
+          <li className={activeSection === "portfolio" ? styles.active : ""}>
+            <Link href="#portfolio">Portfolio</Link>
           </li>
           <li className={activeSection === "education" ? styles.active : ""}>
             <Link href="#education">Education</Link>

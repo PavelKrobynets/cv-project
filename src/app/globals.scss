@@ -1,11 +1,10 @@
 :root {
   width: 100%;
   height: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: repeat;
-  background-image: url("/background.png");
+  background: url("/background.png") center/cover repeat;
+  background-attachment: fixed;
   color: rgb(220, 226, 231);
+  scroll-behavior: smooth;
 }
 
 //#00052Dß
@@ -36,9 +35,6 @@ a {
     color-scheme: dark;
   }
 }
-html {
-  scroll-behavior: smooth;
-}
 
 button {
   font-family: geistSuse;
@@ -50,6 +46,10 @@ button {
   cursor: pointer;
   color: #000721;
 }
+// rgb(246, 241, 209), rgb(64, 121, 140)
+// #DAE2F8, #D6A4A4
+// #83A4D4, #B6FBFF
+//#B8ADFE, #676BC2
 
 h1,
 h2,

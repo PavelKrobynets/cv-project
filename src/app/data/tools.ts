@@ -1,34 +1,34 @@
 export const tools = [
   {
     title: "HTML",
-    icon: "/html.svg",
+    icon: "./html.svg",
   },
   {
     title: "CSS",
-    icon: "/css.svg",
+    icon: "./css.svg",
   },
   {
     title: "JavaScript",
-    icon: "/js.svg",
+    icon: "./js.svg",
   },
   {
     title: "TypeScript",
-    icon: "/typescript.svg",
+    icon: "./typescript.svg",
   },
   {
     title: "React",
-    icon: "/react.svg",
+    icon: "./react.svg",
   },
   {
     title: "Redux",
-    icon: "/redux.svg",
+    icon: "./redux.svg",
   },
   {
     title: "Github",
-    icon: "/github.svg",
+    icon: "./github.svg",
   },
   {
     title: "Figma",
-    icon: "/figma.svg",
+    icon: "./figma.svg",
   },
 ];

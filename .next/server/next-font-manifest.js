@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/pavelkrobynets/Documents/IT/typescript/cv-project/src/app/layout\":[\"static/media/c1d8505ba1de2104-s.p.ttf\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/pavelkrobynets/Documents/IT/typescript/cv-project/src/app/layout":["static/media/c1d8505ba1de2104-s.p.ttf"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';

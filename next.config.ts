@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   output: "export",
   basePath: "/cvProject",
   reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;

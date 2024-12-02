@@ -10,7 +10,7 @@
     margin-bottom: -1rem;
 
     .text {
-      font-size: 16px;
+      font-size: 2px;
       line-height: 1.5;
       font-weight: 300;
     }
@@ -28,13 +28,13 @@
         padding: 1rem;
 
         &__title {
-          font-size: 3.5rem;
+          font-size: 3.9rem;
           line-height: 3rem;
           font-weight: 700;
         }
 
         &__descr {
-          font-size: 0.9rem;
+          font-size: 1.3rem;
           margin-top: 0.5rem;
         }
       }
@@ -43,15 +43,15 @@
 
   .btn {
     align-self: start;
-    padding: 5px;
-    font-size: 12px;
+    padding: 7px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     cursor: pointer;
-    width: 115px;
+    width: 150px;
     border: 1px solid gray;
     border-radius: 5rem;
-    padding-left: 1.5%;
+    padding-left: 2%;
     background: linear-gradient(-30deg, rgb(246, 241, 209), rgb(64, 121, 140));
     color: black;
     margin-top: 2rem;

@@ -3,16 +3,17 @@
   & > .download {
     margin-top: 1.5rem;
     margin-bottom: -0.5rem;
-    font-size: 12px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     color: rgb(227, 227, 227);
     cursor: pointer;
-    width: 115px;
+    width: 150px;
     padding: 3px;
     border: 1px solid gray;
     border-radius: 5rem;
-    padding-left: 1.8%;
+    padding: 7px;
+    padding-left: 2%;
 
     & > svg {
       margin-left: 0.3rem;

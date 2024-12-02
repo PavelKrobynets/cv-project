@@ -9,7 +9,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1.7rem;
+    font-size: 2.4rem;
     font-weight: 500;
     margin-bottom: 3rem;
     margin-top: 1rem;
@@ -31,7 +31,7 @@
       font-size: 0.9rem;
     }
     dd {
-      font-size: 0.75rem;
+      font-size: 1.1rem;
       font-weight: 200;
       color: #9a9ec9;
       text-shadow: 1px 1px 5px #060a25;
@@ -53,14 +53,19 @@
 }
 
 .contacts > div > ul > li > * > svg {
-  width: 3.6rem;
+  width: 4.6rem;
   color: #67919a;
   transition: all 0.3s;
 }
 
-.contacts > div > ul > li:hover,
+.contacts > div > ul > li:hover {
+  scale: 1.07;
+  color: #c1c7d0;
+  backdrop-filter: blur(5px);
+}
+
 .contacts > div > ul > li:hover > * > svg {
-  scale: 1.05;
+  scale: 1.01;
   color: #c1c7d0;
   backdrop-filter: blur(5px);
 }

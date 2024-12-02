@@ -2,7 +2,7 @@
   padding-top: 10rem;
   & > .download {
     margin-top: 1.5rem;
-    margin-bottom: -2.5rem;
+    margin-bottom: -0.5rem;
     font-size: 12px;
     display: flex;
     align-items: center;
@@ -22,5 +22,8 @@
     &:hover {
       color: rgb(255, 255, 255);
     }
+  }
+  a {
+    cursor: pointer;
   }
 }

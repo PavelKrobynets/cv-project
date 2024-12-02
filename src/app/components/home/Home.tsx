@@ -20,7 +20,7 @@ export default function Home() {
           transition: { duration: 1.3 },
         }}
         download
-        href="/Pavlo_Krobynets_Frontend_Developer_CV..pdf"
+        href="/cvProject/Pavlo_Krobynets_Frontend_Developer_CV.pdf"
         className={styles.download}
       >
         Download CV <ArrowBigDownDash />

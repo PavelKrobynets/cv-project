@@ -22,7 +22,7 @@ export default function ProfileCard() {
         Pavlo
         <br /> Krobynets
       </h4>
-      <img src="/profile.webp" alt="my-photo" className={styles.image} />
+      <img src="./profile.webp" alt="my-photo" className={styles.image} />
       <dl>
         <dt>Specialization:</dt>
         <dd>Frontend developer</dd>

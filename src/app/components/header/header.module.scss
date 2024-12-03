@@ -30,10 +30,10 @@
     &.active {
       border: 1px solid #fff;
     }
-  }
-  & > ul > li:hover {
-    border: 1px solid rgba(255, 255, 255, 0.42);
-    cursor: pointer;
+    &:hover {
+      border: 1px solid rgba(255, 255, 255, 0.42);
+      cursor: pointer;
+    }
   }
 
   .btn {

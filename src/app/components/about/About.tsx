@@ -79,6 +79,9 @@ export default function About() {
           y: 0,
           transition: { duration: 1.3 },
         }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        transition={{ type: "spring", stiffness: 400, damping: 10 }}
         download
         href="/cvProject/Pavlo_Krobynets_Frontend_Developer_CV.pdf"
         className={styles.btn}

@@ -69,9 +69,13 @@ export default function Header() {
       </nav>
 
       <Link className={styles.btn} href="mailto:krobynetspavel@gmail.com">
-        <button>
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: "spring", stiffness: 400, damping: 10 }}
+        >
           Let's talk <MessageCircleMore className={styles.icon} />
-        </button>
+        </motion.button>
       </Link>
     </motion.header>
   );

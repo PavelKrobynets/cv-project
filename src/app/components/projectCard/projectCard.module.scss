@@ -68,24 +68,24 @@
 
 .modalImg {
   position: relative;
-  width: 37rem;
+  width: 45rem;
   border-radius: 1rem;
 }
 
 .modalContent {
   background-color: #0f1636;
-  width: 28rem;
+  width: 42rem;
   padding: 20px;
   border-radius: 2rem;
   text-align: start;
 }
 .modalTitle {
-  font-size: 24px;
+  font-size: 32px;
   margin-bottom: 5px;
 }
 
 .modalCaption {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   font-size: 14px;
 }
 
@@ -99,5 +99,5 @@
   padding: 3px 10px;
   border: 1px solid rgba(143, 143, 143, 0.8);
   border-radius: 0.9rem;
-  font-size: 12px;
+  font-size: 14px;
 }

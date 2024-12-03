@@ -32,7 +32,14 @@ export default function ProjectCard({ ...project }: Props) {
   };
 
   const modalWindow = (
-    <div className={styles.modalOverlay} onClick={handleCloseModal}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.3 }}
+      className={styles.modalOverlay}
+      onClick={handleCloseModal}
+    >
       <div className={styles.modalClose} onClick={handleCloseModal}>
         x
       </div>
@@ -42,7 +49,14 @@ export default function ProjectCard({ ...project }: Props) {
         </Link>
       ) : null}
       <img className={styles.modalImg} src={project.img} alt={project.title} />
-      <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
+      <motion.div
+        initial={{ y: -50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        exit={{ y: -50, opacity: 0 }}
+        transition={{ duration: 0.3 }}
+        className={styles.modalContent}
+        onClick={(e: React.MouseEvent<HTMLDivElement>) => e.stopPropagation()}
+      >
         <h5 className={styles.modalTitle}>{project.title}</h5>
         <div className={styles.modalTags}>
           {project.tags.map((tag, index) => (
@@ -52,8 +66,8 @@ export default function ProjectCard({ ...project }: Props) {
           ))}
         </div>
         <p className={styles.modalCaption}>{project.caption}</p>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 
   return (

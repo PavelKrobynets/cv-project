@@ -43,11 +43,6 @@ export default function ProjectCard({ ...project }: Props) {
       <div className={styles.modalClose} onClick={handleCloseModal}>
         x
       </div>
-      {project.link ? (
-        <Link href={project.link} className={styles.modalLink} target="_blank">
-          <LinkIcon />
-        </Link>
-      ) : null}
       <img className={styles.modalImg} src={project.img} alt={project.title} />
       <motion.div
         initial={{ y: -50, opacity: 0 }}
@@ -57,7 +52,18 @@ export default function ProjectCard({ ...project }: Props) {
         className={styles.modalContent}
         onClick={(e: React.MouseEvent<HTMLDivElement>) => e.stopPropagation()}
       >
-        <h5 className={styles.modalTitle}>{project.title}</h5>
+        <div className={styles.modalTop}>
+          <h5 className={styles.modalTitle}>{project.title}</h5>
+          {project.link ? (
+            <Link
+              href={project.link}
+              className={styles.modalLink}
+              target="_blank"
+            >
+              <LinkIcon />
+            </Link>
+          ) : null}
+        </div>
         <div className={styles.modalTags}>
           {project.tags.map((tag, index) => (
             <span key={index} className={styles.modalTag}>

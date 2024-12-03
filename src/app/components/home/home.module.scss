@@ -8,12 +8,10 @@
     align-items: center;
     color: rgb(227, 227, 227);
     cursor: pointer;
-    width: 150px;
-    padding: 3px;
+    padding: 10px;
+    width: fit-content;
     border: 1px solid gray;
     border-radius: 5rem;
-    padding: 7px;
-    padding-left: 2%;
 
     & > svg {
       margin-left: 0.3rem;

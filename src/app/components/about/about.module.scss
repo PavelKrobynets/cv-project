@@ -43,12 +43,12 @@
 
   .btn {
     align-self: start;
-    padding: 7px;
+    padding: 10px;
     font-size: 16px;
     display: flex;
     align-items: center;
     cursor: pointer;
-    width: 150px;
+    width: fit-content;
     border: 1px solid gray;
     border-radius: 5rem;
     padding-left: 2%;

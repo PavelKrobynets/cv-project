@@ -58,7 +58,7 @@
 
 .contacts > div > ul > li:hover {
   border: 1px solid #9a9ec9;
-}
-.contacts > div > ul > li > * > svg:hover {
-  color: #9a9ec9;
+  & > * > svg {
+    color: #9a9ec9;
+  }
 }
